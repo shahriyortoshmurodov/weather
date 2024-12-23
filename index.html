@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="manifest" href="manifest.json">
+</head>
+<body>
+  <div class="container">
+ <div class="crd">
+  <div class="search-bar">
+    <input type="text" id="city-input" placeholder="Search city" />
+  </div>
+
+  <div class="weather-info">
+    <img src="770b805d5c99c7931366c2e84e88f251.png" alt="Weather Icon" class="weather-icon" id="weather-icon">
+    <h1 id="temperature">--°</h1>
+    <p id="location" class="location">City</p>
+    <p id="details" class="details">Max: --° Min: --°</p>
+  </div>
+
+  <div class="footer">
+    <div class="today-info">
+      <p>Today</p>
+      <p id="date"></p>
+    </div>
+    <button id="search-btn" class="search-btn">Search</button>
+  </div>
+ </div>
+  </div>
+
+  <script src="main.js"></script>
+  <script src="manifest.json"></script>
+  <script src="service-worker.js"></script>
+</body>
+</html>
