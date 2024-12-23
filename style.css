@@ -97,3 +97,27 @@ body {
 .search-btn:hover {
   background: #d4ac0d;
 }
+@media (max-width: 768px) {
+  .crd {
+    width: 95%;
+    padding: 15px;
+  }
+
+  .weather-info h1 {
+    font-size: 2rem; /* Slightly smaller font */
+  }
+
+  .weather-icon {
+    width: 80px; /* Smaller icon */
+  }
+
+  .search-bar input {
+    font-size: 0.9rem;
+    padding: 8px;
+  }
+
+  .search-btn {
+    padding: 8px 15px;
+    font-size: 0.9rem;
+  }
+}
